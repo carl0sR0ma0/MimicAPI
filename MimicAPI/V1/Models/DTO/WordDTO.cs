@@ -1,6 +1,6 @@
-﻿namespace MimicAPI.Models
+﻿namespace MimicAPI.V1.Models.DTO
 {
-    public class Word
+    public class WordDTO : BaseDTO
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
